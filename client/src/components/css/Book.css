@@ -1,0 +1,1132 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-5xl: 1.5rem;
+    --font-size-11xl: 1.88rem;
+    --font-size-lg: 1.13rem;
+    --font-size-19xl: 2.38rem;
+    --font-size-4xl: 1.44rem;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslategray: #463d3d;
+    --color-gainsboro: #d9d9d9;
+  
+    /* Gaps */
+    --gap-6xl: 1.56rem;
+    --gap-28xl: 2.94rem;
+    --gap-30xl: 3.06rem;
+    --gap-36xl: 3.44rem;
+    --gap-xs: 0.75rem;
+    --gap-7xl: 1.63rem;
+    --gap-5xl: 1.5rem;
+  
+    /* Paddings */
+    --padding-12xs: 0.06rem;
+    --padding-9xs: 0.25rem;
+    --padding-xl: 1.25rem;
+    --padding-sm: 0.88rem;
+    --padding-11xs: 0.13rem;
+    --padding-5xs: 0.5rem;
+  
+    /* Border radiuses */
+    --br-21xl: 40px;
+    --br-11xl: 30px;
+    --br-mid: 17px;
+  }
+
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+  
+    /* font sizes */
+    --font-size-5xl: 1.5rem;
+    --font-size-11xl: 1.88rem;
+    --font-size-lg: 1.13rem;
+    --font-size-19xl: 2.38rem;
+    --font-size-4xl: 1.44rem;
+  
+    /* Colors */
+    --color-white: #fff;
+    --color-darkslategray: #463d3d;
+    --color-gainsboro: #d9d9d9;
+  
+    /* Gaps */
+    --gap-6xl: 1.56rem;
+    --gap-28xl: 2.94rem;
+    --gap-30xl: 3.06rem;
+    --gap-36xl: 3.44rem;
+    --gap-xs: 0.75rem;
+    --gap-7xl: 1.63rem;
+    --gap-5xl: 1.5rem;
+  
+    /* Paddings */
+    --padding-12xs: 0.06rem;
+    --padding-9xs: 0.25rem;
+    --padding-xl: 1.25rem;
+    --padding-sm: 0.88rem;
+    --padding-11xs: 0.13rem;
+    --padding-5xs: 0.5rem;
+  
+    /* Border radiuses */
+    --br-21xl: 40px;
+    --br-11xl: 30px;
+    --br-mid: 17px;
+  }body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-5xl: 1.5rem;
+  --font-size-11xl: 1.88rem;
+  --font-size-lg: 1.13rem;
+  --font-size-19xl: 2.38rem;
+  --font-size-4xl: 1.44rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-darkslategray: #463d3d;
+  --color-gainsboro: #d9d9d9;
+
+  /* Gaps */
+  --gap-6xl: 1.56rem;
+  --gap-28xl: 2.94rem;
+  --gap-30xl: 3.06rem;
+  --gap-36xl: 3.44rem;
+  --gap-xs: 0.75rem;
+  --gap-7xl: 1.63rem;
+  --gap-5xl: 1.5rem;
+
+  /* Paddings */
+  --padding-12xs: 0.06rem;
+  --padding-9xs: 0.25rem;
+  --padding-xl: 1.25rem;
+  --padding-sm: 0.88rem;
+  --padding-11xs: 0.13rem;
+  --padding-5xs: 0.5rem;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-11xl: 30px;
+  --br-mid: 17px;
+}
+
+.header-frame-child {
+    position: absolute;
+    top: 7.75rem;
+    left: 11rem;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-darkslategray);
+    width: 58rem;
+    height: 80.38rem;
+    display: none;
+  }
+  .header-frame-inner,
+  .header-frame-item {
+    position: absolute;
+    top: 66.89rem;
+    left: 28.56rem;
+    border-radius: var(--br-mid);
+    background-color: var(--color-gainsboro);
+    width: 15.99rem;
+    height: 2.79rem;
+    display: none;
+    z-index: 3;
+  }
+  .header-frame-inner {
+    top: 71.31rem;
+  }
+  .line-group,
+  .line-group1,
+  .line-group2 {
+    position: absolute;
+    top: 43.97rem;
+    left: 10.84rem;
+    border-top: 1px solid var(--color-white);
+    box-sizing: border-box;
+    width: 58.19rem;
+    height: 0.06rem;
+    z-index: 2;
+  }
+  .line-group1,
+  .line-group2 {
+    top: 76.22rem;
+    left: 10.97rem;
+  }
+  .line-group2 {
+    top: 49.22rem;
+    left: 10.84rem;
+  }
+  .f-r-a-m-e-child {
+    align-self: stretch;
+    height: 129.25rem;
+    position: relative;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-darkslategray);
+    display: none;
+  }
+  .personal-details {
+    height: 2.38rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .student-name {
+    width: 24rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-g-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: contain;
+    margin-top: -0.06rem;
+    z-index: 2;
+  }
+  .personal-details-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    min-height: 3.88rem;
+    max-width: 100%;
+    font-size: var(--font-size-19xl);
+  }
+  .student-name1 {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 10.88rem;
+    z-index: 2;
+  }
+  .frame-with-two-rectangles-child {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro);
+    align-self: stretch;
+    height: 2.79rem;
+    position: relative;
+    border-radius: var(--br-mid);
+    min-width: 9.56rem;
+    z-index: 2;
+  }
+  .frame-with-two-rectangles {
+    flex: 0.9481;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-sm) 0 0;
+    box-sizing: border-box;
+    min-width: 12.63rem;
+  }
+  .address-info-frame {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro);
+    height: 2.79rem;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-mid);
+    min-width: 12rem;
+    z-index: 2;
+  }
+  .father-info-frame,
+  .frame-group {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .father-info-frame {
+    flex: 1;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1.13rem;
+  }
+  .frame-group {
+    width: 52.63rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .contact-no,
+  .e-mail-id,
+  .fathers-name {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .gender1 {
+    margin: 0;
+  }
+  .gender {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .address1,
+  .blank-line {
+    margin: 0;
+  }
+  .address {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .semester-frame {
+    width: 16.56rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-5xl);
+    min-width: 16.56rem;
+  }
+  .facilities-to-be-availed-frame-child,
+  .personal-details-frame1 {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro);
+    height: 2.79rem;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-mid);
+    min-width: 10.38rem;
+    z-index: 2;
+  }
+  .facilities-to-be-availed-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs) 0 0;
+    box-sizing: border-box;
+    gap: 2rem;
+    min-height: 2.94rem;
+  }
+  .student-name-frame-child {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro);
+    width: 17.24rem;
+    height: 2.79rem;
+    position: relative;
+    border-radius: var(--br-mid);
+    z-index: 2;
+  }
+  .student-name-frame-item {
+    width: 19.25rem;
+    height: 2.75rem;
+  }
+  .floor-and-hostel-number-frame,
+  .student-name-frame-inner,
+  .student-name-frame-item {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro);
+    position: relative;
+    border-radius: var(--br-mid);
+    z-index: 2;
+  }
+  .floor-and-hostel-number-frame {
+    width: 17.24rem;
+    height: 2.79rem;
+  }
+  .student-name-frame-inner {
+    align-self: stretch;
+    height: 2.81rem;
+    min-width: 15.63rem;
+  }
+  .program-specialization-year-c,
+  .student-name-frame {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .student-name-frame {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-7xl);
+    min-width: 22.13rem;
+  }
+  .program-specialization-year-c {
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.06rem;
+  }
+  .academic-frame,
+  .first-line {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .academic-frame {
+    width: 52.69rem;
+    flex-direction: row;
+    padding: 0 var(--padding-5xs);
+    box-sizing: border-box;
+  }
+  .first-line {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-6xl);
+    min-height: 31.94rem;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .academic-details {
+    height: 2.38rem;
+    width: 22rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .academic-details-wrapper {
+    width: 56.31rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    min-height: 4.75rem;
+    max-width: 100%;
+  }
+  .program {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .blank-line1,
+  .specialization1 {
+    margin: 0;
+  }
+  .specialization {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .blank-line2,
+  .year1 {
+    margin: 0;
+  }
+  .year {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .blank-line3,
+  .semester1 {
+    margin: 0;
+  }
+  .semester {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    z-index: 2;
+  }
+  .blank-line4,
+  .semester3 {
+    margin: 0;
+  }
+  .semester2 {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    z-index: 4;
+    margin-left: -16.5rem;
+  }
+  .semester-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .blank-line5,
+  .cgpa1 {
+    margin: 0;
+  }
+  .cgpa {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .program-parent {
+    width: 16.69rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-11xs);
+    box-sizing: border-box;
+    gap: var(--gap-6xl);
+    min-width: 16.69rem;
+  }
+  .componentframe-a,
+  .componentframe-a1,
+  .componentframe-a2,
+  .componentframe-a3,
+  .componentframe-b {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro);
+    position: relative;
+    border-radius: var(--br-mid);
+  }
+  .componentframe-b {
+    align-self: stretch;
+    height: 2.81rem;
+    min-width: 15.63rem;
+    z-index: 3;
+  }
+  .componentframe-a,
+  .componentframe-a1,
+  .componentframe-a2,
+  .componentframe-a3 {
+    width: 15.99rem;
+    height: 2.79rem;
+    z-index: 2;
+  }
+  .componentframe-a1,
+  .componentframe-a2,
+  .componentframe-a3 {
+    z-index: 3;
+  }
+  .componentframe-a2,
+  .componentframe-a3 {
+    z-index: 5;
+  }
+  .componentframe-a3 {
+    z-index: 4;
+  }
+  .componentframe-b-parent,
+  .frame-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .componentframe-b-parent {
+    flex: 1;
+    flex-direction: column;
+    padding: 0 var(--padding-11xs) 0 0;
+    box-sizing: border-box;
+    gap: var(--gap-7xl);
+    min-width: 22.25rem;
+    margin-left: -0.12rem;
+  }
+  .frame-container {
+    align-self: stretch;
+    flex-direction: row;
+    row-gap: 20px;
+  }
+  .hostel-preferences {
+    height: 2.38rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .hostel-preferences-wrapper {
+    width: 27.81rem;
+    flex-direction: row;
+    padding: 0 1.31rem;
+    font-size: var(--font-size-19xl);
+  }
+  .f-r-a-m-e-inner,
+  .frame-parent,
+  .hostel-preferences-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-parent {
+    width: 52rem;
+    flex-direction: column;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-36xl);
+  }
+  .f-r-a-m-e-inner {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-sm);
+    min-height: 29.81rem;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .blank-line6,
+  .hostel-no1 {
+    margin: 0;
+  }
+  .hostel-no {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .frame-name-contact-info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-9xs);
+  }
+  .floor {
+    align-self: stretch;
+    height: 2.9rem;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .component-frame,
+  .personal-details-frame2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .component-frame {
+    align-self: stretch;
+    gap: var(--gap-5xl);
+  }
+  .personal-details-frame2 {
+    width: 16.56rem;
+    padding: 0;
+    box-sizing: border-box;
+    min-width: 16.56rem;
+  }
+  .academic-details-frame,
+  .academic-details-frame1 {
+    border: 0;
+    outline: 0;
+    background-color: var(--color-gainsboro);
+    align-self: stretch;
+    height: 2.79rem;
+    position: relative;
+    border-radius: var(--br-mid);
+    min-width: 9.56rem;
+  }
+  .component-1,
+  .componentframe-c,
+  .frame-gender-address {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frame-gender-address {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-7xl);
+    min-width: 10.38rem;
+  }
+  .component-1,
+  .componentframe-c {
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .component-1 {
+    width: 32.56rem;
+    row-gap: 20px;
+    z-index: 2;
+  }
+  .componentframe-c {
+    padding: 0 0.81rem 0 0;
+    box-sizing: border-box;
+  }
+  .facilities-to-be,
+  .rectangle-semester-icon {
+    position: relative;
+    max-width: 100%;
+    flex-shrink: 0;
+    z-index: 2;
+  }
+  .facilities-to-be {
+    width: 23.81rem;
+    height: 2.88rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+  }
+  .rectangle-semester-icon {
+    align-self: stretch;
+    height: 0.25rem;
+    overflow: hidden;
+    object-fit: contain;
+  }
+  .semester-frame1 {
+    width: 32.31rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    max-width: 100%;
+  }
+  .componentframe-c-parent,
+  .frame-section {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .componentframe-c-parent {
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 0 var(--padding-xl) 0 0;
+    gap: var(--gap-36xl);
+  }
+  .frame-section {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 1.19rem;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .blank-line7,
+  .mess1 {
+    margin: 0;
+  }
+  .mess {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 3.75rem;
+    z-index: 2;
+  }
+  .frame-mess-swimming-laundry-gy {
+    height: 1.19rem;
+    width: 1.25rem;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    z-index: 2;
+  }
+  .component-hostel-no {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-30xl);
+  }
+  .blank-line8,
+  .swimming1 {
+    margin: 0;
+  }
+  .swimming {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 8rem;
+    z-index: 2;
+  }
+  .component-hostel-no-child {
+    height: 1.19rem;
+    width: 1.25rem;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    z-index: 2;
+  }
+  .component-hostel-no1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-30xl);
+  }
+  .blank-line9,
+  .laundry1 {
+    margin: 0;
+  }
+  .laundry {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    z-index: 2;
+  }
+  .component-hostel-no-item {
+    height: 1.19rem;
+    width: 1.25rem;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    z-index: 2;
+  }
+  .component-hostel-no2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-28xl);
+  }
+  .blank-line10,
+  .gym1 {
+    margin: 0;
+  }
+  .gym {
+    height: 2.9rem;
+    flex: 1;
+    position: relative;
+    text-transform: capitalize;
+    font-weight: 600;
+    display: inline-block;
+    z-index: 2;
+  }
+  .rectangle-community-service {
+    width: 1.25rem;
+    height: 1.19rem;
+    position: relative;
+    background-color: var(--color-gainsboro);
+    z-index: 2;
+  }
+  .rectangle-community-service-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.31rem 0 0;
+  }
+  .component-hostel-no3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-28xl);
+  }
+  .facilities-frame,
+  .frame-hostel-preferences {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frame-hostel-preferences {
+    width: 20.88rem;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--gap-6xl);
+  }
+  .facilities-frame {
+    width: 56.06rem;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    min-height: 17.88rem;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .submit,
+  .submit-text-child {
+    position: relative;
+    max-width: 100%;
+  }
+  .submit-text-child {
+    height: 4.63rem;
+    width: 25rem;
+    border-radius: var(--br-11xl);
+    background-color: var(--color-gainsboro);
+    display: none;
+  }
+  .submit-book {
+    height: 2.81rem;
+    flex: 1;
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: #000;
+    text-align: center;
+    display: inline-block;
+    z-index: 3;
+  }
+  .f-r-a-m-e,
+  .submit-text {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .submit-text {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-9xs) 0.63rem 1.56rem 0;
+    background-color: var(--color-gainsboro);
+    width: 25.06rem;
+    border-radius: var(--br-11xl);
+    flex-direction: row;
+    align-items: flex-start;
+    z-index: 2;
+  }
+  .submit-text:hover {
+    background-color: #bfbfbf;
+  }
+  .f-r-a-m-e {
+    position: absolute;
+    top: 7.75rem;
+    left: 11rem;
+    border-radius: var(--br-21xl);
+    background-color: var(--color-darkslategray);
+    width: 58rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 2.38rem 0 6.5rem var(--padding-12xs);
+    gap: 3.38rem;
+    z-index: 1;
+    text-align: center;
+    font-size: var(--font-size-19xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  .header-frame {
+    width: 100%;
+    height: 163rem;
+    position: relative;
+    border-radius: 24px;
+    background-color: var(--color-white);
+    overflow: hidden;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 750px) {
+    .personal-details {
+      font-size: var(--font-size-11xl);
+    }
+    .student-name1 {
+      font-size: var(--font-size-5xl);
+    }
+    .father-info-frame {
+      flex-wrap: wrap;
+    }
+    .address,
+    .contact-no,
+    .e-mail-id,
+    .fathers-name,
+    .gender {
+      font-size: var(--font-size-5xl);
+    }
+    .semester-frame {
+      flex: 1;
+    }
+    .program-specialization-year-c {
+      flex-wrap: wrap;
+    }
+    .academic-details {
+      font-size: var(--font-size-11xl);
+    }
+    .cgpa,
+    .program,
+    .semester,
+    .semester2,
+    .specialization,
+    .year {
+      font-size: var(--font-size-5xl);
+    }
+    .program-parent {
+      flex: 1;
+    }
+    .frame-container {
+      flex-wrap: wrap;
+    }
+    .hostel-preferences {
+      font-size: var(--font-size-11xl);
+    }
+    .facilities-to-be,
+    .floor,
+    .gym,
+    .hostel-no,
+    .laundry,
+    .mess,
+    .swimming {
+      font-size: var(--font-size-5xl);
+    }
+    .submit {
+      font-size: 2rem;
+    }
+    .header-frame {
+      height: auto;
+      min-height: 2608;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .componentframe-b-parent {
+      margin-left: 0;
+    }
+    .personal-details-frame2 {
+      flex: 1;
+    }
+    .component-1 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .personal-details {
+      font-size: var(--font-size-4xl);
+    }
+    .student-name1 {
+      font-size: var(--font-size-lg);
+    }
+    .frame-with-two-rectangles {
+      flex: 1;
+    }
+    .address,
+    .contact-no,
+    .e-mail-id,
+    .fathers-name,
+    .gender {
+      font-size: var(--font-size-lg);
+    }
+    .facilities-to-be-availed-frame {
+      flex-wrap: wrap;
+    }
+    .student-name-frame {
+      min-width: 100%;
+    }
+    .academic-details {
+      font-size: var(--font-size-4xl);
+    }
+    .cgpa,
+    .program,
+    .semester,
+    .semester2,
+    .specialization,
+    .year {
+      font-size: var(--font-size-lg);
+    }
+    .componentframe-b-parent {
+      min-width: 100%;
+    }
+    .hostel-preferences {
+      font-size: var(--font-size-4xl);
+    }
+    .facilities-to-be,
+    .floor,
+    .gym,
+    .hostel-no,
+    .laundry,
+    .mess,
+    .swimming {
+      font-size: var(--font-size-lg);
+    }
+    .submit {
+      font-size: var(--font-size-5xl);
+    }
+    .submit-text {
+      width: calc(100% - 40px);
+    }
+  }

@@ -1,0 +1,134 @@
+/* home.css */
+
+
+
+.home-container {
+  /* max-width:fit-content; */
+  height: max-content;
+  margin: 0 ;
+  padding: 0px;
+  text-align: center;
+  background-color: #ffff;
+  border-bottom: 1px solid black;
+}
+
+.home-image {
+  width:194vh;
+  height:88vh;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  object-fit: cover;
+}
+
+
+.overlay-text h1{
+  position: absolute;
+  top: 60%;
+  left: 24%;
+  right: 38%;
+  transform: translate(-50%, -50%);
+  font-family: "Montserrat";
+  color: #140d0d;
+  font-size: 52px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.site-images{
+  border-top: 1px solid #493d56;
+  border-bottom: 1px solid #493d56;
+  margin-top: 45px;
+}
+
+
+.site-text{
+  text-align: left;
+  font-family: "poppins";
+  font-size:47px;
+  font-weight: 400;
+  padding: 20px 97px;
+  color: #493d56;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 45px;
+  padding: 20px 70px 55px 70px;
+}
+
+
+
+.margin-7 {
+  margin: 0 7% 0 7%;
+}
+
+.featured-text{
+  text-align: left;
+  font-family: "poppins";
+  font-size:47px;
+  font-weight: 400;
+  padding: 20px ;
+  color: #493d56;
+}
+
+.keypoints {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  gap: 75px;
+  padding-bottom: 30px;
+}
+
+.keypoint-element {
+  width: minmax(350px, 1fr);
+  justify-content: center;
+  border: 1px solid;
+  padding-top: 20px;
+  border: 0.5px solid black;
+  border-radius: 16px ;
+  box-shadow: 2px 2px 8px 0px grey;
+  background-color: #fbfafa;
+}
+
+.key-img-border {
+  display: grid;
+  justify-content: center;
+}
+
+.keyimg {
+  box-sizing: border-box;
+  padding: 8px;
+  width: 80px;
+  border: 6px solid #3c663f;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.font {
+  font-family: 'poppins';
+  text-align: center;
+}
+
+.key-title {
+  color: #09532bd0;
+  font-family: 'poppins', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  padding-top: 1.5rem;
+  margin-bottom: 1.7em;
+}
+
+.key-head {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #1e1e1e;
+}
+
+.key-desc {
+  font-size: 1em;
+  color: #000000;
+  line-height: 1.5;
+  padding-bottom: 1.5em;
+  font-weight: 500;
+}
