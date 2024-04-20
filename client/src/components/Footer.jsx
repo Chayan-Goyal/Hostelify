@@ -31,11 +31,11 @@ const Footer = () => {
                 <ul className="info">
                     <li>
                         <span><i className="fa-solid fa-phone"></i></span>
-                        <p><a href="tel:+91-7073722268">7073722268</a></p>
+                        <p><a href="tel:+91-8570035147">8570035147</a></p>
                     </li>
                     <li>
                         <span><i className="fa-solid fa-envelope"></i></span>
-                        <p><a href="mailto:sumitsingh1339@gmail.com">sumitsingh1339@gmail.com</a></p>
+                        <p><a href="mailto:sumitsingh1339@gmail.com">chayangoyal2004n@gmail.com</a></p>
                     </li>
                 </ul>
             </div>

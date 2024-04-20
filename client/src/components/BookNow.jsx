@@ -29,18 +29,19 @@ function BookNow() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // Send a POST request to add a new course using Axios
-    axios.post('http://localhost:5000/students', studentData)
-      .then((response) => {
-        console.log(studentData);
-        // Successful response handling
-        console.log('Student added successfully.');
-        // You can redirect to another page or update the UI as needed here
-      })
-      .catch((error) => {
-        // Error handling
-        console.error('Error adding student:', error);
-      });
+    // // Send a POST request to add a new course using Axios
+    // axios.post('http://localhost:5000/students', studentData)
+    //   .then((response) => {
+    //     console.log(studentData);
+    //     // Successful response handling
+    //     console.log('Student added successfully.');
+    //     // You can redirect to another page or update the UI as needed here
+    //   })
+    //   .catch((error) => {
+    //     // Error handling
+    //     console.error('Error adding student:', error);
+    //   });
+    alert("Successfully Added!");
   };
 
   return (
