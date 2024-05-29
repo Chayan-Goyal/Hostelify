@@ -21,7 +21,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 <BrowserRouter>
 
-
 <Routes>
   <Route path="/about" element={<><Navbar/><About/></>} />
   <Route path="/abouta" element={<><Nav/><About/></>} />

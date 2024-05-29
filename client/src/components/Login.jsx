@@ -18,6 +18,7 @@ function Login() {
     <form onSubmit={handleSubmit} className="row-4">
         <Link to={"/"} className="lb">
           <img src={logo} alt="" id="logo" />
+          
           </Link>
         <div className="form-child">
           <img src={User} alt="" className="icon" />
@@ -39,12 +40,16 @@ function Login() {
             required={true}
           />
         </div>
+        <br />
         <div className="form-child">
           <input className="submit" type="submit" defaultValue="Login" />
         </div>
-        <div style={{ margin: "auto", color: "white" }}>
+        {/* <div style={{ margin: "auto", color: "white" }}>
         &nbsp; | &nbsp;{" "} <span className="foot">Forgot password?</span> &nbsp; | &nbsp;{" "}
-        </div>
+        </div> */}
+        {/* <button style={{   margin: "auto",  }}>
+        &nbsp; | &nbsp;{" "} <span className="">Don't have an account ? <span style={{color :"red"}}>Sign Up</span></span> &nbsp; | &nbsp;{" "}
+        </button> */}
       </form>
     </div>
   </div>
